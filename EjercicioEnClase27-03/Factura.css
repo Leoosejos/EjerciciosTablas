@@ -1,0 +1,16 @@
+table, td, th {
+    border: 1px solid black;
+    padding: 10px;
+    border-collapse: collapse;
+}
+.Right{
+    text-align: right;
+}
+
+.Left{
+    text-align: left;
+}
+.Center{
+    text-align: center;
+    justify-content: center;
+}

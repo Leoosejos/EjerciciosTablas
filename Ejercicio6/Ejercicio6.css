@@ -1,4 +1,4 @@
 .caption{
     text-align: center;
-    justify-content: 0 auto;
+    justify-content: 0 auto; /* https://www.w3schools.com/cssref/css3_pr_justify-content.php */
 }

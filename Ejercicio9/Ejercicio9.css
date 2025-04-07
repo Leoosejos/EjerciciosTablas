@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+    font-size: small;
+}
+
+.head {
+    border: 1px solid black;
+}
+
+.right {
+    text-align: right;
+}
+
+.left {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+.table__lista-bandas tbody tr:nth-child(odd) /*even es para pares, odd es para aplicar a los impares, puedes poner numeros como 1 o 2, si quieres de 2 para arriba es (-n + 2) y del 2 para abajo seria (n + 2)*/ {
+    background-color: #000ecbf3;
+}
+.table__lista-bandas tbody tr:nth-child(even) /*even es para pares, odd es para aplicar a los impares, puedes poner numeros como 1 o 2, si quieres de 2 para arriba es (-n + 2) y del 2 para abajo seria (n + 2)*/ {
+    background-color: #528fd4;
+}
+table {
+    border-collapse: collapse; /*  separate */
+}

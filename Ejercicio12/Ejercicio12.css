@@ -1,0 +1,42 @@
+table{
+    border-collapse: collapse;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+ 
+
+tr,td,th{
+    border: 1px solid black;
+}
+
+
+.amarillo th{
+    padding: 20px;
+    font-weight: bold;
+    
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgb(159, 159, 159);
+}
+tbody tr:nth-child(odd) {
+    background-color: rgb(207, 93, 207);
+}
+.amarillo{
+    background-color: rgb(242, 255, 127) 
+    
+}
+
+ tr td:nth-child(2)::after {
+    content: "(kCal)";
+}
+tr td:nth-child(3)::after {
+    content: "(g)";
+}
+tr td:nth-child(4)::after {
+    content: "(g)";
+}
+tr td:nth-child(5)::after {
+    content: "(g)";
+}

@@ -1,0 +1,24 @@
+.Table {
+    background-color:#74d973f3;
+    border: 3px solid rgb(11, 42, 218);
+}
+.Table tr, th, td{
+    border-collapse: collapse;
+    width: 150px;
+    border: 3px solid rgb(11, 42, 218);
+    margin: 0 auto;
+}
+.Table__tbody tr:nth-child(-n + 6) {
+
+    background-color: #74d973f3;
+}
+.Table__tbody tr:nth-child(n + 7) {
+    background-color: #8bc60c;
+}
+.Right {
+    text-align: right;
+}
+
+.Left {
+    text-align: left;
+}

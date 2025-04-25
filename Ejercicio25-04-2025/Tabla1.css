@@ -1,0 +1,16 @@
+.table__PlanesSuscripcion {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 80%;
+    border-collapse: collapse
+}
+
+
+tbody tr{
+    border: 1px solid black;
+}
+
+.table__PlanesSuscripcion thead{
+    background-color: antiquewhite;
+}

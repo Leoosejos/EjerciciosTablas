@@ -1,0 +1,22 @@
+.menu {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  background: #333;
+}
+.menu > li {
+  padding: 15px 20px;
+  color: white;
+  position: relative;
+}
+.submenu ul {
+  display: none;
+  position: absolute;
+  background: #fff;
+  top: 100%;
+  left: 0;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.submenu:hover ul {
+  display: block;
+}

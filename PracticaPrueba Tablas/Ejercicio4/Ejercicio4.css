@@ -1,0 +1,14 @@
+table, tr, th, td{
+    padding: 5px;
+    border-collapse: collapse;
+    width: 350px;
+    font-size: large;
+}
+caption{
+    text-align: right;
+}
+
+tr, th, td{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}

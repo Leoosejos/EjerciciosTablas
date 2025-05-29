@@ -1,0 +1,29 @@
+.Cartas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+}
+
+.Carta1{
+    padding: 20px;
+    background-color: bisque;
+    margin: 10px;
+
+}
+.Carta2{
+    padding: 20px;
+    background-color: orange;
+        margin: 10px;
+}
+.Carta3{
+    padding: 20px;
+    background-color: rgb(224, 136, 27);
+        margin: 10px;
+}
+@media (max-width: 600px) {
+  .Carta1, .Carta2, .Carta3 {
+    width: 100%;
+    flex-flow: column;
+  }
+}

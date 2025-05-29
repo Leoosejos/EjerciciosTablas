@@ -1,0 +1,35 @@
+.Green{
+    background-color: green;
+    height: 80px;
+    padding: 50px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+.Red{
+    background-color: red;
+    height: 80px;
+    padding: 50px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    z-index: 4;
+}
+.Black{
+    background-color: black;
+    color: white;
+    height: 80px;
+    padding: 50px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 45%;
+    z-index: 10;
+}
